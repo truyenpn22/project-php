@@ -1,0 +1,749 @@
+    * {
+        box-sizing: border-box;
+        font-family: sans-serif;
+        font-size: 1.2vw;
+        text-decoration: none;
+        list-style: none;
+    } 
+    .boxcenter {
+        width: 92%;
+        margin: 0 auto;
+    }
+    
+    .row {
+        float: left;
+        width: 100%;
+    }
+    
+    .mb {
+        margin-bottom: 20px;
+    }
+    
+    .mb10 {
+        margin-bottom: 10px;
+    }
+    
+    .mr {
+        margin-right: 2%;
+    }
+    
+    .demo {
+        background-color: antiquewhite;
+        min-height: 100px;
+    }
+    
+    .header {
+        background-color: #00274a;
+        color: white;
+        margin-bottom: 0px;
+    }
+    .footer{
+        color: white;
+        border-radius: 5px;
+    }
+    
+    .header h1 {
+        margin: 10px;
+        font-size: 1.2vw;
+    }
+    
+    .menu {
+        background-color: black;
+        color: #CCC;
+        text-align: center;
+        height: 100px;
+    }
+    
+    .boxtrai {
+        float: left;
+        width: 74%;
+    }
+    
+    .boxphai {
+        float: left;
+        width: 24%;
+    }
+    
+    .boxtitle {
+        color: white;
+        padding: 10px;
+        background-color: #00274a;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border: 1px black solid;
+    }
+    .boxtitle .boxcon .car{
+        padding: 10px;
+    }
+    .boxcon {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        min-height: 200px;
+    }
+    .boxcontent {
+        border-left: 1px black solid;
+        border-right: 1px black solid;
+        border-bottom: 1px black solid;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        min-height: 200px;
+        padding: 20px;
+    }
+    .boxcontent table tr td input{
+        padding: .5rem 1rem;
+    }
+    .boxcontent2 {
+        border-left: 1px black solid;
+        border-right: 1px black solid;
+        background-color: #00274a;
+    }
+    
+    .boxfooter {
+        padding: 10px;
+        background-color: #00274a;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-left: 1px black solid;
+        border-right: 1px black solid;
+        border-bottom: 1px black solid;
+    }
+    
+    .banner {
+        min-height: 300px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .banner img {
+        height: 300px;
+    }
+    
+    .boxsp {
+        float: left;
+        width: 32%;
+        min-height: 300px;
+        border: 1px rgb(192, 187, 187) solid;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .btnaddtocart input[type=submit] {
+        width: 100%;
+        border: 1px black solid;
+        padding: 5px 10px;
+        border-radius: 5px;
+        background-color: #00274a;
+        color: white;
+    }
+    .btnaddtocart input[type=submit]:hover {
+        background-color: #38A3A5;
+    }
+    .boxsp .img {
+        width: 100%;
+        min-height: 250px;
+        text-align: center;
+    }
+    
+    .boxsp p {
+        padding: 0px 10px;
+        font-size: 1.2vw;
+        margin: 10px;
+    }
+    
+    .boxsp a {
+        display: block;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        font-size: 1.5vw;
+        text-decoration: none;
+        color: #00274a;
+    }
+    
+    .boxsp a:hover {
+        color: black;
+    }
+    
+    .img img {
+        height: 220px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .menu h1{
+        position: absolute;
+        padding: 10px;
+        float: left;
+        margin-left: 5px;
+        font-size: 1.8rem;
+        color: #00274a;
+        border: 4px white solid;
+        border-radius:10px  10px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+        left: 90px;
+    }
+    .menu ul {
+        padding: 0px 10px;
+    }
+    
+    .menu ul li {
+        list-style-type: none;
+        display: inline;
+        padding: 0px 15px;
+    }
+    
+    .menu ul li a {
+        color: #CCC;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    
+    .menu ul li a:hover {
+        color: white;
+        font-size: 0.8vw;
+    }
+    /* box tài khoản*/
+    
+    .formtaikhoan {
+        line-height: 150%;
+    }
+    
+    .formtaikhoan input[type="text"],
+    .formtaikhoan input[type="email"],
+    .formtaikhoan input[type="password"],
+    .frmcontent input[type="text"] {
+        width: 100%;
+        border: 1px #CCC solid;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    
+    .formtaikhoan input[type="checkbox"] {
+        border-radius: 5px;
+    }
+    
+    .formtaikhoan input[type="submit"],
+    .frmcontent input[type="submit"],
+    .formtaikhoan input[type="reset"],
+    .frmcontent input[type="reset"],
+    .frmcontent input[type="button"] {
+        border-radius: 5px;
+        padding: 5px 10px;
+        background-color: #00274a;
+        border: 1px black solid;
+        color: white;
+    }
+    
+    .formtaikhoan input[type="submit"]:hover,
+    .frmcontent input[type="submit"]:hover,
+    .frmcontent input[type="reset"]:hover,
+    .frmcontent input[type="button"]:hover {
+        background-color: #38A3A5;
+    }
+    
+    .formtaikhoan li a {
+        color: teal;
+        text-decoration: none;
+    }
+    
+    .formtaikhoan li a:hover {
+        color: #060;
+        text-decoration: underline;
+    }
+    /* menu dọc*/
+    
+    .menudoc ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    .menudoc ul li {
+        padding: 10px 20px;
+        background-color: #FFF;
+        border-bottom: 1px #CCC solid;
+    }
+    
+    .menudoc ul li a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .menudoc ul li:hover {
+        background-color: #CCC;
+    }
+    
+    .searbox input[type="text"] {
+    position: absolute;
+    width: 15%;
+    padding: 5px 10px;
+    background-color: #FFF;
+    border: 1px black solid;
+    border-radius: 5px;
+    top: 105px;
+    left: 520px;
+    }
+    .searbox input[type="submit"] {
+        position: absolute;
+        padding: 5px 10px;
+        background-color: #00274a;
+        border: 1px white solid;
+        border-radius: 5px;
+        color: white;
+        top: 105px;
+        left: 730px;
+    }
+    .searbox input[type="submit"]:hover{
+        background-color: #38A3A5;
+    }
+    .top10 img {
+        width: 20%;
+        height: 50px;
+        float: left;
+        margin-right: 10px;
+        border-radius: 5px;
+        border: 1px black solid;
+    }
+    
+    .top10 a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .top10 a:hover {
+        color: #2d1594;
+        text-decoration: underline;
+    }
+    /* Admin*/
+    
+    .headeradmin {
+        background-color: black;
+        border: 1px #CCC solid;
+        color: #666;
+        border-radius: 5px;
+        padding: 0px 20px;
+        margin-bottom: 0px;
+    }
+    
+    
+    .frmtitle {
+        border-left: 1px black solid;
+        border-right: 1px black solid;
+        border-bottom: 1px black solid;
+        background-color: #00274a;
+        border: 1px black solid;
+        color: white;
+        border-radius: 5px;
+        padding: 0px 20px;
+    }
+    
+    .frmcontent {
+        padding: 20px 0px;
+    }
+    
+    .frmdsloai table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    .frmdsloai table th {
+        padding: 20px;
+        background-color: #00274a;
+        color: white;
+    }
+    /* .frmdsloai table th:nth-child(2) {
+    width: 30%;
+    background-color: #CCC;
+}
+
+.frmdsloai table th:nth-child(3) {
+    width: 40%;
+    background-color: #CCC;
+}
+
+.frmdsloai table th:nth-child(4) {
+    width: 20%;
+    background-color: #CCC;
+} */
+    
+    .frmdsloai table td {
+        padding: 10px 20px;
+        border: 1px #CCC solid;
+    }
+    /* trang chủ */
+    /*slideshow*/
+    /* Slideshow container */
+    
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+    /* Hide the images by default */
+    
+    .mySlides {
+        display: none;
+    }
+    /* Next & previous buttons */
+    
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    /* Position the "next button" to the right */
+    
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    /* On hover, add a black background color with a little bit see-through */
+    
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    /* Caption text */
+    
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    /* Number text (1/3 etc) */
+    
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    /* The dots/bullets/indicators */
+    
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    
+    .active,
+    .dot:hover {
+        background-color: #717171;
+    }
+    /* Fading animation */
+    
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    /* end slideshow*/
+    
+    .spct {
+        text-align: center;
+    }
+    
+    .spct img {
+        width: 50%;
+    }
+    
+    .thongbao {
+        color: red;
+    }
+
+/* footerrrrrrrrrr */
+
+footer{
+    width: 100%;
+    background-color: #111;
+}
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #d9d9d9;
+}
+.box .content{
+    margin: 20px 0 0 0;
+}
+.left .content p{
+    text-align: justify;
+    color: #d9d9d9;
+}
+.left .content .social{
+    margin: 20px 0 0 0;
+    color: #d9d9d9;
+}
+.left .content .social a{
+    padding: 0 2px;
+    color: #d9d9d9;
+}
+.left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background:#1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+transition: 0.3s;
+color: #d9d9d9;
+}
+.left .content .social a span:hover{
+    background:#f12020;
+}
+.center .content .fa{
+font-size: 1.4375rem;
+background-color: #1a1a1a;
+height: 45px;
+width: 45px;
+line-height: 45px;
+text-align: center;
+border-radius: 50%;
+transition: 0.3s;
+cursor: pointer;
+color: #d9d9d9;
+}
+.center .content .fas:hover{
+background: #f12020;
+}
+.center .content .text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+     padding-left: 10px;
+     color: #d9d9d9;
+}
+.center .content .phone{
+    margin: 10px 0;
+}
+.right form .msg{
+margin-top: 10px;
+color: #d9d9d9;
+}
+.right form .text{
+    color: #d9d9d9; 
+}
+.right form input, .right form textarea{
+    width: 100%;
+    font-size: 1.0625rem;
+    background: #151515;
+    padding-left: 10px;
+border-radius: 1px solid #222222;
+}
+.right form input:focus,
+.right form textarea:focus{
+    outline-color: #3498db ;
+}
+.right form input{
+    height: 35px;
+}
+.right form .btn{
+    margin-top: 10px;
+}
+.right form .btn button{
+    height: 40px;
+    width: 100%;
+    border:none;
+    outline: none;
+    background: #f12020;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.right form .btn button:hover{
+    background: #000;
+}
+.bottom center{
+    color: #d9d9d9;
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #151515; 
+}
+.bottom center span{
+    color:#656565;
+}
+.bottom center a{
+    color: #f12020;
+}
+.bottom center a:hover{
+    text-decoration: underline;
+}
+
+/* GIOI THIEU */
+.chu{
+    padding: 60px 0 30px 0;
+    margin-top: 40px;
+    margin: auto;
+    width: 1000px;
+ }
+ .chu .titlepage {
+    text-align: center;
+}
+
+ .chu .titlepage h2 {
+    color:black;
+    margin-top: 10px;
+    
+}
+.chu .titlepage h2::before {
+    background-color: #000000;
+}
+
+.chu .titlepage p {
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: 400px;
+    text-align: justify;
+    padding-top: 25px;
+    line-height: 1.4;
+    font-family: 'Ubuntu', sans-serif;
+}
+.binhluan table th {
+    background-color: black;
+    color: white;
+}
+.binhluan table{
+    background-color: white;
+    width: 100%;
+    border: 1px black solid;
+}
+.binhluan table td{
+    border: 1px black solid;
+}
+.binhluan table td:nth-child(1){
+    width: 20%;
+}
+.binhluan table td:nth-child(2){
+    width: 40%;
+}
+.binhluan table td:nth-child(3){
+    width: 20%;
+}
+.binhluan table td:nth-child(4){
+    width: 40%;
+}
+.cart table th{
+    text-align: center;
+    width: 100%;
+    background-color: #00274a;
+    color: white;
+    padding: 10px;
+}
+.cart table{
+    border: 1px black solid;
+}
+.cart table td{
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px black solid;
+}
+.cart table th:nth-child(1){
+    width: 30%;
+}
+.cart table th:nth-child(2){
+    width: 40%;
+}
+.cart table th:nth-child(3){
+    width: 10%;
+}
+.cart table th:nth-child(4){
+    width: 10%;
+}
+
+.boxtrai .cart{
+    width: 100%;
+}
+.boxcontentn table tr td input{
+width: 100%;
+border: 1px black solid;
+}
+.boxcontentn {
+border-left: 1px black solid;
+border-right: 1px black solid;
+border-bottom: 1px black solid;
+padding: 15px;
+text-align:left;
+}
+.boxcontentn table{
+    width: 50%;
+    
+}
+.billform{
+    
+    padding: 10px 20px;
+    margin-right: 5px;
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+}
+.bill a input{
+    background-color: #00274a;
+    color: white;
+}
+.bill a input:hover{
+    background-color: #38A3A5;
+    color: white;
+}
+.boxcontent table tr td input{
+    padding: .5rem 1rem;
+}
+
+.heading{
+    background-color: #00274a;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem 0;
+    left: 10px;
+    text-align: center;
+}
+.box-title{
+    padding-top: 8.0rem;
+}
+
+
